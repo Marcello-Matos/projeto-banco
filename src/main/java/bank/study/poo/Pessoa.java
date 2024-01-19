@@ -1,21 +1,41 @@
 package bank.study.poo;
 
-public class Pessoa {
+public abstract class Pessoa {
 
+	private String cpfCnpj;
 	private String nome;
-	private int idade;
+	private String dataNascimento;
+	private String endereco;
 	
-	public Pessoa(String nome, int idade) {
-		this.nome = nome;
-		this.idade = idade;
+	
+	public String getCpfCnpj() {
+		return cpfCnpj;
 	}
-	
-	public int getIdade() {
-		return idade;
+	public void setCpfCnpj(String cpfCnpj) {
+		this.cpfCnpj = cpfCnpj;
 	}
 	public String getNome() {
 		return nome;
 	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	
+	
+	
 	
 	
 }

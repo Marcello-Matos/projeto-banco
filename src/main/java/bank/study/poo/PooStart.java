@@ -3,10 +3,10 @@ package bank.study.poo;
 public class PooStart {
 
 	public static void main(String[] args) {
-		Pessoa p = new Pessoa("Marcello", 20);
+		Pessoa pessoa1 = new PessoaFisica();
+		Pessoa pessoa2 = new PessoaJuridica();
 		
-		System.out.println(p.getNome());
-		System.out.println(p.getIdade());
+		
 
 	}
 
