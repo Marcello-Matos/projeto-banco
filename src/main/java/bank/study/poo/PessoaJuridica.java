@@ -1,6 +1,6 @@
 package bank.study.poo;
 
-public class PessoaJuridica extends Pessoa{
+public class PessoaJuridica extends PessoaTeste{
 
 	private String razaoSocial;
 

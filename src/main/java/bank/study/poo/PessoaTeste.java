@@ -1,6 +1,6 @@
 package bank.study.poo;
 
-public abstract class Pessoa {
+public abstract class PessoaTeste {
 
 	private String cpfCnpj;
 	private String nome;
