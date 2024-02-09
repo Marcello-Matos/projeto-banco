@@ -9,13 +9,15 @@ public class Banco {
 	private int telefone;
 	private String cnpj;
 	
+	public Banco() {}
+	
 	public Banco(String nomeBanco, int agencia, int contaAgencia, String endereco, String estado, int telefone, String cnpj) {
-		setNomeBanco(nomeBanco);
-		setAgencia(agencia);
-		setContaAgencia(contaAgencia);
-		setEndereco(endereco);
-		setEstado(estado);
-		setTelefone(telefone);
+		this.nomeBanco = nomeBanco;
+		this.agencia = agencia;
+		this.contaAgencia = contaAgencia;
+		this.endereco = endereco;
+		this.estado = estado;
+		this.telefone = telefone;
 	}
 	
 	public String getNomeBanco() {
