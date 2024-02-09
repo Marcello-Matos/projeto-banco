@@ -1,8 +1,10 @@
-package bank.model;
+package bank.study.poo;
 
-import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
+import bank.model.Cliente;
 
 public class FinalTest {
 
@@ -30,15 +32,11 @@ public class FinalTest {
 			String nome = entrada.next();
 			System.out.println("Informe o CPF:\n");
 			String cpf = entrada.next();
-			System.out.println("Informe os dados da Conta Corrente:\n");
-			int contaCorrente = entrada.nextInt();
-			System.out.println("Informe os dados da Conta Poupanca:\n");
-			int contaPoupanca = entrada.nextInt();
-			System.out.println("Informe os Investimentos:\n");
-			String investimentos = entrada.next();
 			
 			
-            Cliente cliente = new Cliente(banco, agencia, contaAgencia, endereco, estado, telefone, contaCorrente, contaPoupanca, investimentos, cpf);
+            Cliente cliente = new Cliente();
+            cliente.setCpf(cpf);
+            cliente.setNome(nome);
            
             clientes.add(cliente);
 
