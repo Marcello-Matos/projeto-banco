@@ -1,4 +1,4 @@
-package bancoNacional;
+package bank.model;
 
 import java.util.Scanner;
 import java.util.ArrayList;

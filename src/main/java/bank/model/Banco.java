@@ -1,4 +1,4 @@
-package bancoNacional;
+package bank.model;
 
 public class Banco {
 	private String nomeBanco;
