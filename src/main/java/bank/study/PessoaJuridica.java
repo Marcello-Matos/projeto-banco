@@ -1,4 +1,4 @@
-package bank.study.poo;
+package bank.study;
 
 public class PessoaJuridica extends PessoaTeste{
 

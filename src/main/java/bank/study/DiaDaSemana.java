@@ -1,4 +1,4 @@
-package bank.study.poo;
+package bank.study;
 
 public enum DiaDaSemana {
 	SEGUNDA("SEG"), TERCA("TER"), QUARTA("QUA"), QUINTA("QUI"), SEXTA("SEX"), SABADO("SAB"), DOMINGO("DOM");

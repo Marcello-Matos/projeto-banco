@@ -1,4 +1,4 @@
-package bank.study.poo;
+package bank.study;
 
 import java.util.ArrayList;
 import java.util.List;

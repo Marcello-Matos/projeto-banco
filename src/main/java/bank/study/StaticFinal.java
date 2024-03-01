@@ -1,4 +1,4 @@
-package bank.study.poo;
+package bank.study;
 
 public class StaticFinal {
 	public static String nome;
