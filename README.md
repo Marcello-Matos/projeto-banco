@@ -1,1 +1,4 @@
-# projeto-banco
+# Projeto Banco
+
+## Tecnologias
+ - Java
