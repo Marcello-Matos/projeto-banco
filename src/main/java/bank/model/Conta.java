@@ -8,6 +8,17 @@ public abstract class Conta {
 	private String numeroConta;
 	private double saldo;
 	private Date dataAbertura;
+	
+	
+	public Conta(String cpf, String numeroConta, double saldo, Date dataAbertura) {
+		this.cpf = cpf;
+		this.numeroConta = numeroConta;
+		this.saldo = saldo;
+		this.dataAbertura = dataAbertura;		
+	}
+	public Conta() {
+		
+	}
 
 	public String getCpf() {
 		return cpf;
@@ -40,6 +51,8 @@ public abstract class Conta {
 	public void setDataAbertura(Date dataAbertura) {
 		this.dataAbertura = dataAbertura;
 	}
+	
+	public abstract double getBeneficio();
 	
 	public abstract TipoConta getTipoConta();
 

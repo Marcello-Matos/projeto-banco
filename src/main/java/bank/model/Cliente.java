@@ -6,6 +6,8 @@ public class Cliente extends Pessoa {
 	private double renda;
 	private boolean statusAtivacao;
 	
+	
+	
 	@Override
 	public String toString() {
 		return "Cliente [getCpf()=" + getCpf() + ", getNome()=" + getNome() + "]";
