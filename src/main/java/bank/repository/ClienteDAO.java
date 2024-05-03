@@ -8,5 +8,6 @@ public interface ClienteDAO {
 	
 	public Cliente get(String cpf);
 	
+	public void atualizar(String cpf, Cliente cliente);
 	
 }
