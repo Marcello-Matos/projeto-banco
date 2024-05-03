@@ -3,20 +3,17 @@ package bank.study;
 public class StaticFinalTeste {
 
 	public static void main(String[] args) {
-		StaticFinal sf1 = new StaticFinal();
-		sf1.nome = "Marcello";
+		StaticFinal sf = new StaticFinal();
+		
+		sf.setNome("Marcelo");
 		
 		StaticFinal sf2 = new StaticFinal();
-		sf2.nome = "Antonio";
 		
-		StaticFinal sf3 = new StaticFinal();
-		sf3.nome = "Mateus";
+		sf2.setNome("Antonio");
 		
-		System.out.println(sf1.nome);
-		System.out.println(sf2.nome);
-		System.out.println(sf3.nome);
+		System.out.println(sf.getNome());
+		System.out.println(sf2.getNome());
 		
-		System.out.println(sf1.NOME_FINAL);
-		System.out.println(sf3.NOME_FINAL);
+		System.out.println(StaticFinal.NOME_FINAL);
 	}
 }
